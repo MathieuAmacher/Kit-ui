@@ -1,0 +1,293 @@
+@font-face {
+    font-family: 'game';
+    src: url('game.otf') format('opentype');
+}
+
+
+.primary {
+    background-color : #FF0000
+}
+
+.secondary {
+    color : #00FF00
+}
+
+.text-primary {
+    color : #9CCA9C
+}
+
+.text-secondary {
+    color : #418441
+}
+
+.text-terciary {
+    color : #0E600E
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #FF0000;
+    font-family: "game"
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    color: #418441;
+}
+
+p3{
+    text-decoration: underline #418441;
+}
+
+.lead {
+    color: #FF0000;
+    background-color: #9CCA9C;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+p2{
+    text-decoration: underline #FF0000;
+}
+
+ul{
+    font-family: Helvetica, sans-serif;
+    color: #0E600E
+}
+
+ol{
+    font-family: Helvetica, sans-serif; 
+    color: #0E600E
+}
+
+button{
+    text-align:center;
+}
+
+table{
+   content-align: center;
+    width: 100%;
+}
+
+button.primary{
+    height: 100px;
+    width: 100px;
+    font-family: 'game';
+    font-size: 100% ;
+    color: #0E600E;
+    &:hover{background-color: #0E600E; color: #ff0000}
+}
+
+button.secondary{
+    height: 100px;
+    width: 100px;
+    font-family: 'game';
+    font-size: 100% ;
+    color: #0E600E;
+    background-color: #ff0000;
+    &:hover {box-shadow: 0px 0px 10px 2px #0E600E;
+    }
+}
+
+button.terciary{
+    height: 100px;
+    width: 100px;
+    font-family: 'game';
+    font-size: 100% ;
+    color: #0E600E;
+    background-color: #ff0000;
+    &:hover {border-radius: 50px;}
+}
+
+button.quatuary{
+    height: 100px;
+    width: 100px;
+    font-family: 'game';
+    font-size: 100% ;
+    color: #0E600E;
+    background-color: #ff0000;
+    transition: background-color 1.0s ease;
+    &:hover {
+        background-color: #9CCA9C;
+        color: #ff0000;
+    }
+}
+
+button.fiftuary {
+    height: 100px;
+    width: 100px;
+    font-family: 'game';
+    font-size: 100%;
+    color: #0E600E;
+    background-color: #FF0000;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(2); }
+        100% { transform: scale(1); }
+}
+
+button.sixtuary {
+    height: 100px;
+    width: 100px;
+    font-family: 'game';
+    font-size: 100%;
+    color: #0E600E;
+    background-color: #FF0000;
+    transition: background-color 0.3s ease;
+    transform: rotate(0deg);
+    transition: transform 1.0s ease;
+    &:hover {transform: rotate(360deg);}
+}
+
+button.septuary {
+    height: 100px;
+    width: 100px;
+    font-family: 'game';
+    font-size: 100%;
+    color: #0E600E;
+    background-color: #FF0000;
+    transition: background-color 0.3s ease;
+    transform: rotate(0deg);
+    transform: translateX(0);
+    transition: transform 1.0s ease;
+    &:hover {transform: translateX(20px);}
+}
+
+button.octuary {
+    height: 100px;
+    width: 100px;
+    font-family: 'game';
+    font-size: 100%;
+    color: #0E600E;
+    background-color: #FF0000;
+    transition: background-color 0.3s ease;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+    &:hover { transform: scale(1.2);}
+}
+
+button.nontuary {
+    height: 100px;
+    width: 100px;
+    font-family: 'game';
+    font-size: 100%;
+    color: #0E600E;
+    background-color: #FF0000;
+    animation: blink 3s infinite;
+}
+    @keyframes blink {
+        0%, 50%, 100% {
+            opacity: 1;
+        }
+        25%, 75% {
+            opacity: 0;
+        }
+    }
+
+button.tentuary {
+    height: 100px;
+    width: 100px;
+    font-family: 'game';
+    font-size: 100%;
+    color: #0E600E;
+    background-color: #FF0000;
+    animation: bounce 1.0s infinite;
+}    
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+            transform: translateY(0);
+        }
+        40% {
+            transform: translateY(-20px);
+        }
+        60% {
+            transform: translateY(-10px);
+        }
+    }
+
+button.elevenuary {
+    height: 100px;
+    width: 100px;
+    font-family: 'game';
+    font-size: 100%;
+    color: #0E600E;
+    background-color: #FF0000;
+    overflow: hidden;
+    animation: scroll-text 5s linear infinite;  
+}    
+@keyframes scroll-text {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+button.twelvuary {
+    height: 100px;
+    width: 100px;
+    font-family: 'game';
+    font-size: 100%;
+    color: #0E600E;
+    background-color: #FF0000;
+    overflow: hidden;
+    animation: color-blink 1s infinite;
+}
+@keyframes color-blink {
+        0%, 100% {
+            color: #0E600E;
+        }
+        50% {
+            color: white;
+        }
+    }
+
+
+button.thirteenuary {
+    height: 100px;
+    width: 100px;
+    font-family: 'game';
+    font-size: 100%;
+    color: #0E600E;
+    background-color: #FF0000;
+    overflow: hidden;
+    animation: rotate-alternate 5s infinite;  
+}    
+    @keyframes rotate-alternate {
+        0%, 100% {
+            transform: rotate(0deg);
+        }
+        50% {
+            transform: rotate(720deg);
+        }
+    }
+
+
+
+.papanoel{
+    float: left;
+    background-image: no-repeat;
+    padding-left: -20px;
+    width: 100; 
+    height: 100;
+    margin-top: 100px;
+}
+
+.navbar{
+    margin-right:150px; margin-top: 150px;
+    color: #ff0000
+}
+
+.titre{
+    font-size: 100px;
+}
+
+.soustitre{
+    font-size: 50px;
+    margin-top: -40px;
+}
